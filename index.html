@@ -1,19 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Dinesh Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dinesh Thirumal | Data Analyst</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+/* DARK PROFESSIONAL THEME */
+body{
+  font-family:'Segoe UI',sans-serif;
+  background:#0f172a;
+  color:#e2e8f0;
+}
+
+/* NAVBAR */
+nav{
+ position:sticky;
+ top:0;
+ background:#020617;
+ padding:15px;
+ text-align:center;
+ border-bottom:1px solid #1e293b;
+}
+nav a{
+ margin:0 15px;
+ text-decoration:none;
+ color:#38bdf8;
+ font-weight:500;
+}
+
+/* HERO */
+header{
+ text-align:center;
+ padding:80px 20px;
+ background:linear-gradient(135deg,#1e293b,#020617);
+}
+header h1{
+ font-size:42px;
+ color:#f8fafc;
+}
+header p{
+ color:#94a3b8;
+ margin-top:10px;
+}
+
+/* CONTAINER */
+.container{
+ max-width:900px;
+ margin:auto;
+ padding:20px;
+}
+
+.section{
+ margin:40px 0;
+}
+
+h2{
+ font-size:22px;
+ margin-bottom:15px;
+ color:#38bdf8;
+}
+
+.card{
+ background:#1e293b;
+ padding:20px;
+ border-radius:10px;
+ border:1px solid #334155;
+ margin-bottom:15px;
+ transition:0.2s;
+}
+
+.card:hover{
+ transform:translateY(-4px);
+ border-color:#38bdf8;
+}
+
+ul{
+ padding-left:20px;
+}
+
+.skills span{
+ display:inline-block;
+ background:#0ea5e9;
+ color:#020617;
+ padding:6px 12px;
+ margin:5px;
+ border-radius:20px;
+ font-size:13px;
+}
+
+footer{
+ text-align:center;
+ padding:20px;
+ font-size:14px;
+ color:#64748b;
+}
+</style>
 </head>
+
 <body>
-    <h1>Hello, I'm Dinesh</h1>
-    <p>Data Analyst | Excel | Power BI | SQL</p>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>Spotify Data Analysis</li>
-        <li>Sales Dashboard (Power BI)</li>
-    </ul>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
 
-    <h2>Contact</h2>
-    <p>Email: yourmail@gmail.com</p>
+<header>
+<h1>Dinesh Thirumal</h1>
+<p>Data Analyst | Excel | Power BI | SQL</p>
+</header>
+
+<div class="container">
+
+<section id="about" class="section">
+<h2>Professional Summary</h2>
+<div class="card">
+<p>
+Results-driven MIS Executive with hands-on experience in data reporting, analysis, and dashboard development. Proficient in Excel, Power BI, SQL, and Python. Focused on delivering accurate insights to support business decisions.
+</p>
+</div>
+</section>
+
+<section id="skills" class="section">
+<h2>Technical Skills</h2>
+<div class="card skills">
+<span>Excel</span>
+<span>Power BI</span>
+<span>SQL</span>
+<span>Python</span>
+</div>
+</section>
+
+<section id="experience" class="section">
+<h2>Experience</h2>
+<div class="card">
+<h3>MIS Executive - Buzzworks Business Services Pvt. Ltd.</h3>
+<p>Aug 2025 – Present</p>
+<ul>
+<li>Develop MIS reports and dashboards for telecom clients</li>
+<li>Ensure data accuracy and reporting efficiency</li>
+<li>Support decision-making through data insights</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Intern - Lucas TVS</h3>
+<p>Oct 2024</p>
+<ul>
+<li>Analyzed training needs and skill gaps</li>
+<li>Supported planning and tracking processes</li>
+</ul>
+</div>
+</section>
+
+<section id="projects" class="section">
+<h2>Projects</h2>
+<div class="card">
+<h3>Spotify Dashboard</h3>
+<p>Power BI dashboard analyzing listening trends and patterns.</p>
+</div>
+
+<div class="card">
+<h3>Sales Dashboard</h3>
+<p>Excel dashboard for tracking KPIs and performance.</p>
+</div>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<div class="card">
+<p>Email: dnesh.thirumal@gmail.com</p>
+<p>Phone: 9629764228</p>
+<p>LinkedIn: linkedin.com/in/dineshthirumal75</p>
+</div>
+</section>
+
+</div>
+
+<footer>
+<p>© 2026 Dinesh Thirumal</p>
+</footer>
+
 </body>
 </html>
